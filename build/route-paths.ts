@@ -551,7 +551,6 @@ export type RoutePath =
   | `/chinawriter/:id{.+}?`
   | `/chiphell/portal/:catId?`
   | `/chlinlearn/daily-blog`
-  | `/chnmuseum/zl/:type?/:subType?`
   | `/chnmuseum/zx/xingnew`
   | `/chnmuseum/zx/xwzt`
   | `/chocolatey/packages/:id`
@@ -1004,7 +1003,6 @@ export type RoutePath =
   | `/firefox/release/:platform?`
   | `/fisher-spb/news`
   | `/fishshell/`
-  | `/fjdaily/:date?`
   | `/fjksbm/:category?`
   | `/flashcat/blog`
   | `/flyert/creditcard/:bank`
@@ -1117,7 +1115,6 @@ export type RoutePath =
   | `/getitfree/:filter{.+}?`
   | `/gettr/user/:id`
   | `/gf-cn/news/:category?`
-  | `/gigazine/en`
   | `/gihyo/list/group/:id`
   | `/gisreportsonline/:path{.*}`
   | `/gitcode/commits/:owner/:repo/:branch?`
@@ -1439,7 +1436,6 @@ export type RoutePath =
   | `/hubu/www/:category{.+}?`
   | `/hubu/zhxy/:category{.+}?`
   | `/hudsonrivertrading/blog/:section?`
-  | `/huggingface/activity/:user/likes`
   | `/huggingface/blog`
   | `/huggingface/blog-community/:sort?`
   | `/huggingface/blog-zh`
@@ -1447,7 +1443,6 @@ export type RoutePath =
   | `/huggingface/models/:group`
   | `/huijin-inv/news`
   | `/huitun/xiaohongshu/:user_id`
-  | `/humanlayer/blog`
   | `/hunanpea/rsks/:guid`
   | `/hunau/gfxy/:category?/:page?`
   | `/hunau/ied/:type?/:category?/:page?`
@@ -1481,7 +1476,6 @@ export type RoutePath =
   | `/hypergryph/arknights/arktca`
   | `/hypergryph/arknights/japan`
   | `/hypergryph/arknights/news/:group?`
-  | `/hypergryph/endfield/news/:group?`
   | `/i-cable/news/:category?`
   | `/ianspriggs/:category?`
   | `/iapp/news`
@@ -1519,7 +1513,6 @@ export type RoutePath =
   | `/imiker/ask/jinghua`
   | `/immich/cursed-knowledge`
   | `/imop/tianshu`
-  | `/in-en/news/:type`
   | `/inceptionlabs/blog`
   | `/indianexpress/section/:id{.+}?`
   | `/indiansinkuwait/latest`
@@ -1565,7 +1558,6 @@ export type RoutePath =
   | `/ithome/tag/:name`
   | `/ithome/tw/feeds/:category`
   | `/ithome/zt/:id?`
-  | `/itsec/news`
   | `/iwara/ranking/:type?/:sort?/:rating?`
   | `/iwara/subscriptions`
   | `/iwara/users/:username/:type?`
@@ -2131,7 +2123,6 @@ export type RoutePath =
   | `/nytimes/rss/:cat?`
   | `/obsidian/plugins`
   | `/obsidian/publish/:id`
-  | `/obsidian/themes`
   | `/oceanengine/index/:keyword/:channel?`
   | `/oct0pu5/`
   | `/odaily/:id?`
@@ -2379,7 +2370,7 @@ export type RoutePath =
   | `/qust/jw`
   | `/qweather/3days/:location`
   | `/qweather/now/:location`
-  | `/qwen/blog/:lang?`
+  | `/qwenlm/blog/:lang?`
   | `/qztc/home/:type`
   | `/qztc/jwc/:type`
   | `/qztc/sjxy/:type`
@@ -2426,7 +2417,6 @@ export type RoutePath =
   | `/ruankao/news`
   | `/ruc/ai/:category?`
   | `/ruc/hr/:category?`
-  | `/rule34video/latest`
   | `/runyeah/`
   | `/rustcc/jobs`
   | `/rustcc/news`
@@ -2527,7 +2517,6 @@ export type RoutePath =
   | `/seu/yjs`
   | `/seu/yzb/:type`
   | `/sfacg/novel/chapter/:id`
-  | `/shanghaimuseum/display/offline-exhibit/:type?`
   | `/shcstheatre/programs`
   | `/shiep/:type/:id?`
   | `/shisu/en/:section`
